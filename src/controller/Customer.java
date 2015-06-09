@@ -20,7 +20,7 @@ public class Customer {
 	
 	public String getNameAndAddress(int custNo)
 	{
-		
+		// lets check this in git
 		Customer c = new Customer();
 		try {
 			c = CustomerIO.getCustomer(custNo);
